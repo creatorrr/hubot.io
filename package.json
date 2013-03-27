@@ -1,0 +1,23 @@
+{
+  "name": "hubot.io",
+  "version": "0.1.0",
+  "description": "Socket.io server for hubot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creatorrr/hubot.io"
+  },
+  "dependencies": {
+    "socket.io": "0.9.x"
+  },
+  "keywords": [
+    "hubot",
+    "websockets",
+    "socket.io"
+  ],
+  "author": "creatorrr",
+  "license": "BSD"
+}

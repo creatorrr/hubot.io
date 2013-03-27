@@ -5,7 +5,7 @@
 #   "socket.io": "0.9.x"
 #
 # Configuration:
-#   None
+#   "NODE_ENV": "production"
 #
 # Commands:
 #   None

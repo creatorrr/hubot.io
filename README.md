@@ -8,6 +8,7 @@ This is an external [hubot-script](https://github.com/github/hubot/blob/master/R
     `"hubot.io": ">= 0.1.0"`
 2. Tell hubot to load it. Add `"hubot.io"` to the `external-scripts.json` list in the hubot root folder.
 3. `npm install` while you grab a beer.
+4. _Optional_ but **highly recommended**, set environment variable `NODE_ENV` to `production`.
 
 ## Usage & Examples
 

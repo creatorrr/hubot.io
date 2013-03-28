@@ -1,6 +1,6 @@
 {
   "name": "hubot.io",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Socket.io server for hubot.",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,7 @@
     "socket.io"
   ],
   "author": "creatorrr",
-  "license": "BSD"
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "8dcfb93779e262dea2d8171589180bb656a2ccd0"
 }

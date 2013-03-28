@@ -64,3 +64,6 @@ module.exports = (robot) ->
   robot.on 'removeListener', (event, listener) ->
     if (event = getSocketsEvent event)?
       io.sockets.removeListener event, listener
+
+  # Return socket.io instance
+  io

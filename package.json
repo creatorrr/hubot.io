@@ -4,6 +4,7 @@
   "description": "Socket.io server for hubot.",
   "main": "index.js",
   "scripts": {
+    "prepublish": "cake build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -4,7 +4,7 @@ fs = require 'fs'
 {spawn} = require 'child_process'
 
 build = (callback, opts...) ->
-  options = ['-c', 'index.coffee']
+  options = ['-c', '-o', 'lib', 'src']
   options.unshift opts... if opts
   coffee = spawn 'coffee', options
   coffee.stderr.on 'data', (data) ->
@@ -14,5 +14,5 @@ build = (callback, opts...) ->
   coffee.on 'exit', (code) ->
     callback?() if code is 0
 
-task 'build', 'Build index.coffee', build
-task 'watch', 'Watch and build index.coffee', -> build null, '-w'
+task 'build', 'Build .coffee files.', build
+task 'watch', 'Watch and build .coffee files.', -> build null, '-w'

@@ -1,8 +1,8 @@
 {
   "name": "hubot.io",
-  "version": "0.1.2",
+  "version": "0.1.3-pre",
   "description": "Socket.io server for hubot.",
-  "main": "index.js",
+  "main": "lib/io.js",
   "scripts": {
     "prepublish": "cake build",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +22,5 @@
   "author": "creatorrr",
   "license": "BSD",
   "readmeFilename": "README.md",
-  "gitHead": "8dcfb93779e262dea2d8171589180bb656a2ccd0"
+  "gitHead": "1e06bbad952d0aa258c8748d5fcaddcae8faa028"
 }

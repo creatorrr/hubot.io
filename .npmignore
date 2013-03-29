@@ -1,6 +1,4 @@
-# Custom rules
-lib
-*.js
+# Override .gitignore
 
 # Standard node .gitignore
 # (https://raw.github.com/github/gitignore/master/Node.gitignore)
